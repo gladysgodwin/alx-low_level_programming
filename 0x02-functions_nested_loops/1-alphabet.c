@@ -1,24 +1,26 @@
 #include "main.h"
 
 /**
- * print_alphabet - check the code
+ * print_alphabet - print the alphabet in small letters followed by a newline
  *
  * Return = Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 
 {
 char ch;
 
-printf("Alphabets from a - z are: \n");
-for (ch = 'a'; ch <= 'z'; ch++)
+char = 'a';
+
+while (ch <= 'z')
 
 {
 
-printf("%c\n", ch);
+_putchar (ch);
+ch++;
 
-}
+{
 
-return 0;
+_putchar ('\n');
 
 }
