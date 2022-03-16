@@ -5,17 +5,17 @@
  *
  * Return = Always 0 (Success)
  */
-void print_alphabet(void)
+int main(void)
 
 {
 char ch;
 
-_putchar ("Alphabets from a - z are: \n");
+printf("Alphabets from a - z are: \n");
 for (ch = 'a'; ch <= 'z'; ch++)
 
 {
 
-_putchar ("%c\n", ch);
+printf("%c\n", ch);
 
 }
 
