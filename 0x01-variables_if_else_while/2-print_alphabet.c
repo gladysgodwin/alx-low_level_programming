@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	char alp;
+	char c;
 
-	for (alp = 'a', alp <= 'z', alp++);
-		putchar(alp);
+	for (c = 'a'; c <= 'z'; c++);
+		putchar(c);
 
 	putchar("\n");
 
