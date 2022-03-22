@@ -2,7 +2,7 @@
 
 /**
  * puts2 - print characters of a string followed by a new line
- * @s: pointer to the string
+ * @str: pointer to the string
  * Return: void
  */
 
