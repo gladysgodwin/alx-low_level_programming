@@ -1,26 +1,16 @@
 #include "main.h"
-
 /**
- * print_alphabet - print the alphabet in small letters followed by a newline
+ * print_alphabet - print alphabet lowercase
  *
- * Return = Always 0 (Success)
+ * Return: Always 0.
  */
 void print_alphabet(void)
-
 {
-char ch;
+char alphabet;
 
-char = 'a';
-
-while (ch <= 'z')
-
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-
-_putchar (ch);
-ch++;
-
-{
-
-_putchar ('\n');
-
+_putchar(alphabet);
+}
+_putchar('\n');
 }
